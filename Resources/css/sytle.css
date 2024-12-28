@@ -1,15 +1,35 @@
-html {
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-
-body {
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
+    font-weight: normal;
+    color: aliceblue;
+    text-align: center; 
 }
 
 
-header {
-    color: aliceblue;
-    text-align: center;
+
+section, h1, p {
+    margin: 10px;
+}
+
+
+img {
+    max-width: 700px;
+}
+
+
+a {
+    color: aquamarine;
+}
+
+
+footer  {
+    text-align: end;
+    margin: 10px;
 }
